@@ -1,13 +1,12 @@
 /* Estilos para o site Ágil Guinchos Bauru */
 
 .hero-bg {
-    /* Caminho da imagem de fundo */
+    /* Estilos padrão para telas grandes (Desktop) */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/guincho.jpg');
     background-size: cover;
     background-position: center;
-    
-    /* ADICIONADO: Esta linha corrige a visualização no celular */
     background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .service-card:hover {
@@ -29,4 +28,18 @@
     100% {
         box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
     }
+}
+
+/* --- MÁGICA PARA O CELULAR ACONTECE AQUI --- */
+
+/* Regras aplicadas APENAS em telas com largura máxima de 768px (celulares) */
+@media (max-width: 768px) {
+  .hero-bg {
+    /* Tira o efeito 'fixed' que pode ser instável no celular */
+    background-attachment: scroll;
+
+    /* Ajusta a posição da imagem para focar mais na esquerda (no carro) */
+    /* Experimente mudar o primeiro valor (25%) para 20% ou 30% para ver o que gosta mais */
+    background-position: 25% 50%;
+  }
 }
