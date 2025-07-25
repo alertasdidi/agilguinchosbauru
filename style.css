@@ -40,6 +40,6 @@
 
     /* Ajusta a posição da imagem para focar mais na esquerda (no carro) */
     /* Experimente mudar o primeiro valor (25%) para 20% ou 30% para ver o que gosta mais */
-    background-position: 25% 50%;
+    background-position: 30% 50%;
   }
 }
