@@ -1,81 +1,179 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ágil Guinchos Bauru - Atendimento 24h</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description"
+        content="Guincho 24 Horas em Bauru e Região. Atendimento rápido para carros, motos e utilitários. Pane elétrica, falta de combustível e transporte de veículos. Ligue já!">
+    <title>Ágil Guinchos Bauru | Guincho 24h - Rapidez e Segurança</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="style.css">
 </head>
-<body class="font-sans bg-gray-50">
-    <section class="hero-bg min-h-screen flex items-center justify-center text-white text-center px-4">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6">Ágil Guinchos Bauru</h1>
-            <p class="text-xl md:text-2xl mb-8">Atendimento 24 horas em Bauru e região</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="tel:+5514997292456" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition duration-300">
-                    <i class="fas fa-phone mr-2"></i>Ligar Agora
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Ágil<span class="highlight">Guinchos</span></h1>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#services" class="nav-link">Serviços</a>
+            </nav>
+            <a href="tel:+5514997292456" class="btn btn-primary pulse">
+                <i class="fa-solid fa-phone"></i> (14) 99729-2456
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2 class="hero-subtitle">PROBLEMAS COM SEU VEÍCULO?</h2>
+            <h1 class="hero-title">GUINCHO 24 HORAS EM <br><span class="highlight">BAURU E REGIÃO</span></h1>
+            <p class="hero-text">Atendimento rápido, preço justo e profissionais qualificados. Chegamos até você em
+                poucos minutos!</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" class="btn btn-whatsapp"
+                    target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
                 </a>
-                <a href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition duration-300">
-                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                <a href="tel:+5514997292456" class="btn btn-outline">
+                    <i class="fa-solid fa-phone"></i> Ligar Agora
                 </a>
+            </div>
+            <div class="trust-indicators">
+                <div class="indicator"><i class="fa-solid fa-clock"></i> Chegada Rápida</div>
+                <div class="indicator"><i class="fa-solid fa-shield-halved"></i> Transporte Seguro</div>
+                <div class="indicator"><i class="fa-solid fa-credit-card"></i> Aceitamos Cartões</div>
             </div>
         </div>
     </section>
 
-    <a href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" 
-       class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl z-50 floating-btn">
-       <i class="fab fa-whatsapp"></i>
-    </a>
-    
-    <section class="py-20 px-4 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Nossos Serviços</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="service-card bg-gray-50 p-8 rounded-xl transition duration-300">
-                    <div class="text-blue-600 text-4xl mb-4">
-                        <i class="fas fa-car-crash"></i>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Soluções completas para você não ficar na mão</p>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="assets/24h.png" alt="Guincho Plataforma Resgate" title="Resgate Rápido">
                     </div>
-                    <h3 class="text-xl font-bold mb-3 text-gray-800">Guincho 24 Horas</h3>
-                    <p class="text-gray-600">Atendimento emergencial para veículos acidentados ou avariados a qualquer hora.</p>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-truck-tow"></i>
+                    </div>
+                    <h3>Guincho 24 Horas</h3>
+                    <p>Remoção de veículos leves e utilitários em casos de pane, colisão ou acidentes. Disponível dia e
+                        noite.</p>
                 </div>
-                <div class="service-card bg-gray-50 p-8 rounded-xl transition duration-300">
-                    <div class="text-blue-600 text-4xl mb-4">
-                        <i class="fas fa-truck-pickup"></i>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="assets/transporte.png" alt="Transporte de Veículos de Luxo" title="Transporte Seguro">
                     </div>
-                    <h3 class="text-xl font-bold mb-3 text-gray-800">Transporte de Veículos</h3>
-                    <p class="text-gray-600">Transporte seguro de veículos para oficinas ou outros locais.</p>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-route"></i>
+                    </div>
+                    <h3>Transporte de Veículos</h3>
+                    <p>Levamos seu carro, moto ou máquina para oficinas, pátios ou outras cidades com total segurança.
+                    </p>
                 </div>
-                <div class="service-card bg-gray-50 p-8 rounded-xl transition duration-300">
-                    <div class="text-blue-600 text-4xl mb-4">
-                        <i class="fas fa-car-battery"></i>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="assets/bateria.png" alt="Mecânico dando carga em bateria" title="Socorro Elétrico">
                     </div>
-                    <h3 class="text-xl font-bold mb-3 text-gray-800">Bateria e Combustível</h3>
-                    <p class="text-gray-600">Auxílio com falta de combustível ou problemas na bateria.</p>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-car-battery"></i>
+                    </div>
+                    <h3>Carga de Bateria & Pane Seca</h3>
+                    <p>Seu carro não liga ou acabou o combustível? Resolvemos no local para você seguir viagem.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-white py-12 px-4">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-            <div>
-                <h3 class="text-xl font-bold mb-4">Ágil Guinchos Bauru</h3>
-                <p>Atendimento rápido e profissional 24 horas por dia, 7 dias por semana em Bauru e região.</p>
+    <!-- Why Choose Us -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-content">
+                <h2 class="section-title">Por que escolher a Ágil Guinchos?</h2>
+                <ul class="benefits-list">
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div>
+                            <strong>Rapidez no Atendimento</strong>
+                            <p>Sabemos que você tem pressa. Nossas bases estratégicas permitem chegada rápida.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div>
+                            <strong>Preço Justo</strong>
+                            <p>Valores transparentes e competitivos. Sem surpresas na hora de pagar.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div>
+                            <strong>Equipe Qualificada</strong>
+                            <p>Motoristas experientes e cuidadosos com seu patrimônio.</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div>
-                <h3 class="text-xl font-bold mb-4">Contato</h3>
-                <p><i class="fas fa-phone mr-2"></i> (14) 99729-2456</p>
-                <p><i class="fab fa-whatsapp mr-2"></i> (14) 99729-2456</p>
+        </div>
+    </section>
+
+
+
+    <!-- CTA Final -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Precisando de ajuda agora?</h2>
+            <p>Não perca tempo. Nossa equipe está pronta para te atender.</p>
+            <a href="tel:+5514997292456" class="btn btn-primary btn-large">
+                <i class="fa-solid fa-phone"></i> LIGAR AGORA (14) 99729-2456
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>Ágil Guinchos Bauru</h3>
+                <p>Sua segurança é nossa prioridade. Atendimento 24 horas todos os dias.</p>
             </div>
-            <div>
-                <h3 class="text-xl font-bold mb-4">Atendemos</h3>
-                <p>Bauru e toda região</p>
-                <p>Rodovias e estradas</p>
+            <div class="footer-contact">
+                <h4>Contatos</h4>
+                <p><i class="fa-solid fa-phone"></i> (14) 99729-2456</p>
+                <p><i class="fa-brands fa-whatsapp"></i> (14) 99729-2456</p>
             </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ágil Guinchos Bauru. Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5514997292456?text=Olá,+preciso+de+um+guincho!" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
