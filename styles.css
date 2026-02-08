@@ -157,7 +157,7 @@ ul {
     align-items: center;
 }
 
-.logo h1 {
+.logo .logo-brand {
     font-size: 1.8rem;
     font-weight: 900;
     letter-spacing: -1px;
@@ -532,7 +532,7 @@ ul {
         gap: 15px;
     }
 
-    .logo h1 {
+    .logo .logo-brand {
         font-size: 1.5rem;
     }
 
