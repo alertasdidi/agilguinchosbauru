@@ -15,6 +15,45 @@
     <meta property="og:image" content="https://agilguinchosbauru.com.br/assets/g24.png">
     <meta property="og:url" content="https://agilguinchosbauru.com.br">
     <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://agilguinchosbauru.com.br/">
+    <meta name="theme-color" content="#e00000">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Ágil Guinchos Bauru",
+      "image": "https://agilguinchosbauru.com.br/assets/g24.png",
+      "@id": "https://agilguinchosbauru.com.br",
+      "url": "https://agilguinchosbauru.com.br",
+      "telephone": "+5514997292456",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bauru",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.3145,
+        "longitude": -49.0587
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,123 +79,130 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h2 class="hero-subtitle">PROBLEMAS COM SEU VEÍCULO?</h2>
-            <h1 class="hero-title">GUINCHO 24 HORAS EM <br><span class="highlight">BAURU E REGIÃO</span></h1>
-            <p class="hero-text">Atendimento rápido, preço justo e profissionais qualificados. Chegamos até você em
-                poucos minutos!</p>
-            <div class="hero-buttons">
-                <a href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" class="btn btn-whatsapp"
-                    target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <p class="hero-subtitle">PROBLEMAS COM SEU VEÍCULO?</p>
+                <h1 class="hero-title">GUINCHO 24 HORAS EM <br><span class="highlight">BAURU E REGIÃO</span></h1>
+                <p class="hero-text">Atendimento rápido, preço justo e profissionais qualificados. Chegamos até você em
+                    poucos minutos!</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" class="btn btn-whatsapp"
+                        target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
+                    </a>
+                    <a href="tel:+5514997292456" class="btn btn-outline">
+                        <i class="fa-solid fa-phone"></i> Ligar Agora
+                    </a>
+                </div>
+                <div class="trust-indicators">
+                    <div class="indicator"><i class="fa-solid fa-clock"></i> Chegada Rápida</div>
+                    <div class="indicator"><i class="fa-solid fa-shield-halved"></i> Transporte Seguro</div>
+                    <div class="indicator"><i class="fa-solid fa-credit-card"></i> Aceitamos Cartões</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções completas para você não ficar na mão</p>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/24h.png" alt="Guincho Plataforma Resgate" title="Resgate Rápido"
+                                loading="lazy">
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa-solid fa-truck-tow"></i>
+                        </div>
+                        <h3>Guincho 24 Horas</h3>
+                        <p>Remoção de veículos leves e utilitários em casos de pane, colisão ou acidentes. Disponível
+                            dia e
+                            noite.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/transporte.png" alt="Transporte de Veículos de Luxo"
+                                title="Transporte Seguro" loading="lazy">
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+                        <h3>Transporte de Veículos</h3>
+                        <p>Levamos seu carro, moto ou máquina para oficinas, pátios ou outras cidades com total
+                            segurança.
+                        </p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/bateria.png" alt="Mecânico dando carga em bateria" title="Socorro Elétrico"
+                                loading="lazy">
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa-solid fa-car-battery"></i>
+                        </div>
+                        <h3>Carga de Bateria & Pane Seca</h3>
+                        <p>Seu carro não liga ou acabou o combustível? Resolvemos no local para você seguir viagem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits-content">
+                    <h2 class="section-title">Por que escolher a Ágil Guinchos?</h2>
+                    <ul class="benefits-list">
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>Rapidez no Atendimento</strong>
+                                <p>Sabemos que você tem pressa. Nossas bases estratégicas permitem chegada rápida.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>Preço Justo</strong>
+                                <p>Valores transparentes e competitivos. Sem surpresas na hora de pagar.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>Equipe Qualificada</strong>
+                                <p>Motoristas experientes e cuidadosos com seu patrimônio.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- CTA Final -->
+        <section class="final-cta">
+            <div class="container">
+                <h2>Precisando de ajuda agora?</h2>
+                <p>Não perca tempo. Nossa equipe está pronta para te atender.</p>
+                <a href="tel:+5514997292456" class="btn btn-primary btn-large">
+                    <i class="fa-solid fa-phone"></i> LIGAR AGORA (14) 99729-2456
                 </a>
-                <a href="tel:+5514997292456" class="btn btn-outline">
-                    <i class="fa-solid fa-phone"></i> Ligar Agora
-                </a>
             </div>
-            <div class="trust-indicators">
-                <div class="indicator"><i class="fa-solid fa-clock"></i> Chegada Rápida</div>
-                <div class="indicator"><i class="fa-solid fa-shield-halved"></i> Transporte Seguro</div>
-                <div class="indicator"><i class="fa-solid fa-credit-card"></i> Aceitamos Cartões</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Nossos Serviços</h2>
-            <p class="section-subtitle">Soluções completas para você não ficar na mão</p>
-
-            <div class="services-grid">
-                <!-- Service 1 -->
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="assets/24h.png" alt="Guincho Plataforma Resgate" title="Resgate Rápido">
-                    </div>
-                    <div class="icon-box">
-                        <i class="fa-solid fa-truck-tow"></i>
-                    </div>
-                    <h3>Guincho 24 Horas</h3>
-                    <p>Remoção de veículos leves e utilitários em casos de pane, colisão ou acidentes. Disponível dia e
-                        noite.</p>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="assets/transporte.png" alt="Transporte de Veículos de Luxo" title="Transporte Seguro">
-                    </div>
-                    <div class="icon-box">
-                        <i class="fa-solid fa-route"></i>
-                    </div>
-                    <h3>Transporte de Veículos</h3>
-                    <p>Levamos seu carro, moto ou máquina para oficinas, pátios ou outras cidades com total segurança.
-                    </p>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="assets/bateria.png" alt="Mecânico dando carga em bateria" title="Socorro Elétrico">
-                    </div>
-                    <div class="icon-box">
-                        <i class="fa-solid fa-car-battery"></i>
-                    </div>
-                    <h3>Carga de Bateria & Pane Seca</h3>
-                    <p>Seu carro não liga ou acabou o combustível? Resolvemos no local para você seguir viagem.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="benefits">
-        <div class="container">
-            <div class="benefits-content">
-                <h2 class="section-title">Por que escolher a Ágil Guinchos?</h2>
-                <ul class="benefits-list">
-                    <li>
-                        <i class="fa-solid fa-check-circle"></i>
-                        <div>
-                            <strong>Rapidez no Atendimento</strong>
-                            <p>Sabemos que você tem pressa. Nossas bases estratégicas permitem chegada rápida.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-check-circle"></i>
-                        <div>
-                            <strong>Preço Justo</strong>
-                            <p>Valores transparentes e competitivos. Sem surpresas na hora de pagar.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-check-circle"></i>
-                        <div>
-                            <strong>Equipe Qualificada</strong>
-                            <p>Motoristas experientes e cuidadosos com seu patrimônio.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- CTA Final -->
-    <section class="final-cta">
-        <div class="container">
-            <h2>Precisando de ajuda agora?</h2>
-            <p>Não perca tempo. Nossa equipe está pronta para te atender.</p>
-            <a href="tel:+5514997292456" class="btn btn-primary btn-large">
-                <i class="fa-solid fa-phone"></i> LIGAR AGORA (14) 99729-2456
-            </a>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -179,6 +225,7 @@
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/5514997292456?text=Olá,+preciso+de+um+guincho!" class="whatsapp-float" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
+        <span style="display:none;">Contact</span>
     </a>
 
     <script src="script.js"></script>
