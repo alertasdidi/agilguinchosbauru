@@ -1,234 +1,424 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Guincho 24 Horas em Bauru e Região. Atendimento rápido para carros, motos e utilitários. Pane elétrica, falta de combustível e transporte de veículos. Ligue já!">
-    <title>Ágil Guinchos Bauru | Guincho 24h - Rapidez e Segurança</title>
-
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Ágil Guinchos Bauru | Guincho 24h">
-    <meta property="og:description"
-        content="Guincho 24 Horas em Bauru e Região. Atendimento rápido para carros, motos e utilitários. Pane elétrica e transporte.">
-    <meta property="og:image" content="https://agilguinchosbauru.com.br/assets/g24.png">
-    <meta property="og:url" content="https://agilguinchosbauru.com.br">
-    <meta property="og:type" content="website">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://agilguinchosbauru.com.br/">
-    <meta name="theme-color" content="#e00000">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Ágil Guinchos Bauru",
-      "image": "https://agilguinchosbauru.com.br/assets/g24.png",
-      "@id": "https://agilguinchosbauru.com.br",
-      "url": "https://agilguinchosbauru.com.br",
-      "telephone": "+5514997292456",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Bauru",
-        "addressRegion": "SP",
-        "addressCountry": "BR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -22.3145,
-        "longitude": -49.0587
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "00:00",
-        "closes": "23:59"
-      }
-    }
-    </script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-container">
-            <div class="logo">
-                <div class="logo-brand">Ágil<span class="highlight">Guinchos</span></div>
-            </div>
-            <nav class="nav">
-                <a href="#home" class="nav-link">Início</a>
-                <a href="#services" class="nav-link">Serviços</a>
-            </nav>
-            <a href="tel:+5514997292456" class="btn btn-primary pulse">
-                <i class="fa-solid fa-phone"></i> (14) 99729-2456
-            </a>
+<!DOCTYPE html><html class="dark" lang="pt-BR" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Montserrat:wght@600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"surface-tint":"#f7be1d","tertiary":"#5df285","whatsapp-green":"#22C55E","on-tertiary-container":"#005724","secondary-container":"#3e495d","on-tertiary-fixed-variant":"#005321","surface-variant":"#313540","amber-vivid":"#EAB308","on-surface":"#dfe2f1","surface-container-lowest":"#0a0e18","secondary-fixed":"#d8e3fb","background":"#0f131d","outline":"#9b8f79","primary-fixed-dim":"#f7be1d","surface-container-high":"#262a35","on-primary":"#3f2e00","slate-elevated":"#1E293B","on-error":"#690005","tertiary-container":"#3bd56c","surface-dim":"#0f131d","on-surface-variant":"#d3c5ac","error":"#ffb4ab","tertiary-fixed":"#6bff8f","outline-variant":"#4f4633","primary-container":"#eab308","surface-bright":"#353944","inverse-on-surface":"#2c303b","on-primary-container":"#604700","inverse-surface":"#dfe2f1","on-error-container":"#ffdad6","slate-surface":"#131C2E","surface-container":"#1c1f2a","surface-container-low":"#171b26","primary-fixed":"#ffdf9a","tertiary-fixed-dim":"#4ae176","amber-glow":"rgba(234, 179, 8, 0.25)","on-background":"#dfe2f1","primary":"#ffd165","on-primary-fixed-variant":"#5a4300","on-tertiary":"#003915","whatsapp-hover":"#16A34A","inverse-primary":"#785a00","on-tertiary-fixed":"#002109","on-secondary-fixed-variant":"#3c475a","secondary":"#bcc7de","slate-border":"#334155","text-muted":"#64748B","surface":"#0f131d","on-secondary":"#263143","secondary-fixed-dim":"#bcc7de","text-secondary":"#94A3B8","on-secondary-container":"#aeb9d0","surface-container-highest":"#313540","error-container":"#93000a","text-primary":"#F8FAFC","on-primary-fixed":"#251a00","on-secondary-fixed":"#111c2d"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-desktop":"2rem","space-3xl":"4rem","space-xs":"0.5rem","space-2xl":"3rem","space-xl":"2rem","space-2xs":"0.25rem","container-max":"1240px","gutter-mobile":"1rem","space-sm":"0.75rem","space-lg":"1.5rem","space-md":"1rem"},"fontFamily":{"headline-lg":["montserrat"],"display-hero-mobile":["montserrat"],"label-lg":["montserrat"],"headline-sm":["montserrat"],"label-badge":["montserrat"],"headline-md":["montserrat"],"display-hero":["montserrat"],"body-md":["manrope"],"body-sm":["manrope"],"headline-lg-mobile":["montserrat"],"body-lg":["manrope"],"label-md":["montserrat"]},"fontSize":{"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"700"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-badge":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"800"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-slate-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)]"><div class="h-20 max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop flex items-center justify-between gap-4"><div class="flex items-center gap-3"><img alt="Ágil Guinchos - Guincho 24 Horas Logo" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRchNtGvR9naoM3P5WY-hg9Jbnb-bVHJY-IY6r_GNS12TqpwuyCVzC3u19EuQTrbBWOEkF79gpAP9XZ8XvWEeYn0hzvi1bhVjOdx3FcDPvXBs4ml-eom78XOdecc6f61hQtUVu0tZr9vImF1FChomQ56ux-kn3LS9zuvY8gNTq8F5VOGXTPBQW3GC8N6S5ydIMGT-XKharrQOtq4zhh31Sf1-2Q2n7xA-sOEy1uFqnsV_2Au_gd1tpzw"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight uppercase font-bold leading-tight">Ágil Guinchos</span><span class="font-label-badge text-[11px] text-primary uppercase tracking-wider font-semibold">Guincho 24 Horas</span></div></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-bold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="inicio" href="#">Início</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="servicos" href="#">Serviços</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="por-que-escolher" href="#">Por que Escolher</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="cobertura-bauru-e-regiao" href="#">Cobertura Bauru e Região</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contato" href="#">Contato</a></nav><div class="flex items-center gap-3"><a class="hidden sm:inline-flex items-center gap-2 bg-primary-container text-on-primary-container font-label-lg text-label-lg px-4 py-2.5 rounded-lg hover:bg-surface-tint hover:text-on-primary transition-all" href="tel:14997292456"><span class="material-symbols-outlined text-[18px]">call</span><span class="">(14) 99729-2456</span></a><a class="inline-flex items-center gap-2 bg-whatsapp-green text-text-primary font-label-lg text-label-lg px-4 py-2.5 rounded-lg hover:bg-whatsapp-hover transition-all animate-pulse shadow-[0_0_24px_-2px_rgba(34,197,94,0.4)]" href="https://wa.me/5514997292456" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span class="hidden md:inline">WhatsApp 24h</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest">
+<!-- Background Image with Moody Overlay -->
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity scale-105 transform motion-safe:transition-transform duration-1000" data-alt="Modern flatbed tow truck on an open highway at twilight with bright amber recovery beacon lights glowing against dark asphalt, cinematic automotive emergency rescue photography, high contrast yellow and obsidian palette" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9jKYeDNu3_7gJC4TmlVGrbwIFTzvfKEOWLsBL0WJ3h0V4Bba4eiga1zxt_Hd9p9mSniU2tyVbF6YhcK5vyQ_ZUG2L-LmH_yxB1u20jWTDQfInTfKEvPSayRNWqMXtD7CHbgCqv8CTUVfEvCsBF6F_iDYkqeXKtqXGmpyOuxb6eLYHn1cwl5TdMiY2eWikmj_yGliWoGpnODsrQKi_J8u9LQfUnK-16RM7EDo4J2pDe5-ZIS8WEOvow')">
+</div>
+<!-- Radial & Gradient Scrims -->
+<div class="absolute inset-0 bg-gradient-to-b from-surface-container-lowest/80 via-surface-container-lowest/90 to-surface"></div>
+<div class="absolute -top-40 right-1/4 w-[500px] h-[500px] bg-amber-vivid/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 left-1/3 w-[450px] h-[450px] bg-whatsapp-green/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-2xl lg:py-space-3xl">
+<div class="flex flex-col items-center text-center max-w-4xl mx-auto">
+<!-- Live Emergency Dispatch Status -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-surface/90 shadow-md mb-space-md">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-whatsapp-green opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-whatsapp-green"></span>
+</span>
+<span class="font-label-badge text-label-badge text-primary uppercase tracking-wider">
+            PROBLEMAS COM SEU VEÍCULO? ATENDIMENTO 24 HORAS
+          </span>
+</div>
+<!-- Headline -->
+<h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-text-primary uppercase tracking-tight mb-space-sm">
+          GUINCHO 24 HORAS EM <br class="hidden sm:inline">
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-primary to-surface-tint">
+            BAURU E REGIÃO
+          </span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-text-secondary max-w-2xl mb-space-xl">
+          Atendimento rápido, preço justo e profissionais qualificados. Nossas unidades móveis chegam até você em poucos minutos!
+        </p>
+<!-- CTAs Container -->
+<div class="w-full flex flex-col sm:flex-row items-center justify-center gap-space-md mb-space-xl">
+<!-- WhatsApp CTA -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-whatsapp-green text-text-primary font-label-lg text-label-lg tracking-wide shadow-[0_0_28px_rgba(34,197,94,0.45)] hover:bg-whatsapp-hover hover:scale-[1.02] active:scale-[0.98] transition-all" href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span class="">Chamar no WhatsApp (14) 99729-2456</span>
+</a>
+<!-- Call CTA -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg tracking-wide shadow-[0_0_24px_rgba(234,179,8,0.3)] hover:bg-surface-tint active:scale-[0.98] transition-all" href="tel:+5514997292456">
+<span class="material-symbols-outlined text-[24px]">call</span>
+<span class="">Ligar Agora</span>
+</a>
+</div>
+<!-- Trust Badges Row -->
+<div class="w-full grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-md">
+<div class="flex items-center justify-center gap-3 py-3 px-4 rounded-xl bg-slate-surface/60 backdrop-blur-md shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-container/15 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">speed</span>
+</div>
+<div class="text-left">
+<div class="font-headline-sm text-[15px] text-text-primary leading-tight">Chegada Rápida</div>
+<div class="font-body-sm text-body-sm text-text-muted">Média 20 a 30 minutos</div>
+</div>
+</div>
+<div class="flex items-center justify-center gap-3 py-3 px-4 rounded-xl bg-slate-surface/60 backdrop-blur-md shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-container/15 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">verified_user</span>
+</div>
+<div class="text-left">
+<div class="font-headline-sm text-[15px] text-text-primary leading-tight">Transporte Seguro</div>
+<div class="font-body-sm text-body-sm text-text-muted">Plataforma 100% monitorada</div>
+</div>
+</div>
+<div class="flex items-center justify-center gap-3 py-3 px-4 rounded-xl bg-slate-surface/60 backdrop-blur-md shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-container/15 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">credit_card</span>
+</div>
+<div class="text-left">
+<div class="font-headline-sm text-[15px] text-text-primary leading-tight">Aceitamos Cartões</div>
+<div class="font-body-sm text-body-sm text-text-muted">Pix, Crédito e Débito</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVIÇOS SECTION -->
+<section class="relative w-full py-space-3xl bg-surface">
+<div class="max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<div class="inline-block font-label-badge text-label-badge text-primary uppercase tracking-widest mb-space-2xs">
+          Resgate Especializado
         </div>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div class="hero-overlay"></div>
-            <div class="container hero-content">
-                <p class="hero-subtitle">PROBLEMAS COM SEU VEÍCULO?</p>
-                <h1 class="hero-title">GUINCHO 24 HORAS EM <br><span class="highlight">BAURU E REGIÃO</span></h1>
-                <p class="hero-text">Atendimento rápido, preço justo e profissionais qualificados. Chegamos até você em
-                    poucos minutos!</p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" class="btn btn-whatsapp"
-                        target="_blank">
-                        <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
-                    </a>
-                    <a href="tel:+5514997292456" class="btn btn-outline">
-                        <i class="fa-solid fa-phone"></i> Ligar Agora
-                    </a>
-                </div>
-                <div class="trust-indicators">
-                    <div class="indicator"><i class="fa-solid fa-clock"></i> Chegada Rápida</div>
-                    <div class="indicator"><i class="fa-solid fa-shield-halved"></i> Transporte Seguro</div>
-                    <div class="indicator"><i class="fa-solid fa-credit-card"></i> Aceitamos Cartões</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="services" class="services">
-            <div class="container">
-                <h2 class="section-title">Nossos Serviços</h2>
-                <p class="section-subtitle">Soluções completas para você não ficar na mão</p>
-
-                <div class="services-grid">
-                    <!-- Service 1 -->
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="assets/24h.png" alt="Guincho Plataforma Resgate" title="Resgate Rápido"
-                                loading="lazy">
-                        </div>
-                        <div class="icon-box">
-                            <i class="fa-solid fa-truck-tow"></i>
-                        </div>
-                        <h3>Guincho 24 Horas</h3>
-                        <p>Remoção de veículos leves e utilitários em casos de pane, colisão ou acidentes. Disponível
-                            dia e
-                            noite.</p>
-                    </div>
-
-                    <!-- Service 2 -->
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="assets/transporte.png" alt="Transporte de Veículos de Luxo"
-                                title="Transporte Seguro" loading="lazy">
-                        </div>
-                        <div class="icon-box">
-                            <i class="fa-solid fa-route"></i>
-                        </div>
-                        <h3>Transporte de Veículos</h3>
-                        <p>Levamos seu carro, moto ou máquina para oficinas, pátios ou outras cidades com total
-                            segurança.
-                        </p>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="assets/bateria.png" alt="Mecânico dando carga em bateria" title="Socorro Elétrico"
-                                loading="lazy">
-                        </div>
-                        <div class="icon-box">
-                            <i class="fa-solid fa-car-battery"></i>
-                        </div>
-                        <h3>Carga de Bateria & Pane Seca</h3>
-                        <p>Seu carro não liga ou acabou o combustível? Resolvemos no local para você seguir viagem.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Why Choose Us -->
-        <section class="benefits">
-            <div class="container">
-                <div class="benefits-content">
-                    <h2 class="section-title">Por que escolher a Ágil Guinchos?</h2>
-                    <ul class="benefits-list">
-                        <li>
-                            <i class="fa-solid fa-check-circle"></i>
-                            <div>
-                                <strong>Rapidez no Atendimento</strong>
-                                <p>Sabemos que você tem pressa. Nossas bases estratégicas permitem chegada rápida.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-check-circle"></i>
-                            <div>
-                                <strong>Preço Justo</strong>
-                                <p>Valores transparentes e competitivos. Sem surpresas na hora de pagar.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-check-circle"></i>
-                            <div>
-                                <strong>Equipe Qualificada</strong>
-                                <p>Motoristas experientes e cuidadosos com seu patrimônio.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-
-
-        <!-- CTA Final -->
-        <section class="final-cta">
-            <div class="container">
-                <h2>Precisando de ajuda agora?</h2>
-                <p>Não perca tempo. Nossa equipe está pronta para te atender.</p>
-                <a href="tel:+5514997292456" class="btn btn-primary btn-large">
-                    <i class="fa-solid fa-phone"></i> LIGAR AGORA (14) 99729-2456
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-info">
-                <h3>Ágil Guinchos Bauru</h3>
-                <p>Sua segurança é nossa prioridade. Atendimento 24 horas todos os dias.</p>
-            </div>
-            <div class="footer-contact">
-                <h4>Contatos</h4>
-                <p><i class="fa-solid fa-phone"></i> (14) 99729-2456</p>
-                <p><i class="fa-brands fa-whatsapp"></i> (14) 99729-2456</p>
-            </div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mb-space-xs uppercase">
+          NOSSOS SERVIÇOS
+        </h2>
+<p class="font-body-md text-body-md text-text-secondary">
+          Soluções completas para você não ficar na mão. Frota moderna preparada para qualquer emergência automotiva.
+        </p>
+</div>
+<!-- Grid de Cartões de Serviço -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Serviço 1 -->
+<div class="group relative flex flex-col rounded-2xl bg-slate-surface overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy duty flatbed recovery truck towing a passenger sedan at night during a rainstorm with sharp amber emergency beacons lighting the wet asphalt, realistic automotive concierge photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA1LH_dyToj2p5B4VmFTSFDNC_krH0wyqpfoIwAAkpzwE2YfvkFIuVJ2Y43IWsP-Ebc9aL9Brcn2rommqwL3-aH69Ine1ZB64GHmLzDRYlc3I3hwEjX40HGfaaqotT4MOMa2RkDO3GY6t2s7811tkxRMVeoZfElpdbF7pPV48N71gd0kNADB1WKyORguEEXxG6sgzF4-TgzYVi6zXri2h6R88tNFU4vibeoR2t3QFei9IvmCTF5WQcYw">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-surface via-slate-surface/40 to-transparent"></div>
+<div class="absolute -bottom-4 right-6 w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center shadow-lg shadow-amber-vivid/30">
+<span class="material-symbols-outlined text-[26px]">car_crash</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between pt-6">
+<div>
+<div class="font-label-badge text-label-badge text-tertiary mb-1 uppercase tracking-wider">Pronto Atendimento</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">
+                Guincho 24 Horas
+              </h3>
+<p class="font-body-sm text-body-sm text-text-secondary mb-space-lg leading-relaxed">
+                Remoção ágil de veículos leves e utilitários em casos de pane mecânica, colisão ou acidentes. Disponível dia e noite com plataformas hidráulicas modernas e cintas de amarração zero-arranhão.
+              </p>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary font-label-lg text-label-lg transition-colors" href="https://wa.me/5514997292456?text=Preciso+de+Guincho+24h+para+meu+carro" rel="noopener noreferrer" target="_blank">
+<span class="">Solicitar este serviço</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Serviço 2 -->
+<div class="group relative flex flex-col rounded-2xl bg-slate-surface overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Professional modern car carrier flatbed tow truck transporting a premium luxury vehicle on a highway under daytime clear sky, pristine condition and secure tie down equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZBFhm8GHeTfJrlICzFsgX9vmkaqvzbuxwi-qv40M2V0yujCsE3bIC-WjeCGZRHa1m9S7ByXufGwywcakoUaYz3infphl2ad1Ai2gJa1gCLM5FQdeRxJGwNsNiRH_pGsd6gONmJ0FN_-FpENoH0QHP9KRo3IsbafT3useKPjCx6oJecnXJQsl-1oj2Lo9Og8D_J8LFxpi0odyMt5r6PPzTN62ySmWMcsEg3WS6AqhfVz8r163GlhpQlw">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-surface via-slate-surface/40 to-transparent"></div>
+<div class="absolute -bottom-4 right-6 w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center shadow-lg shadow-amber-vivid/30">
+<span class="material-symbols-outlined text-[26px]">local_shipping</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between pt-6">
+<div>
+<div class="font-label-badge text-label-badge text-primary mb-1 uppercase tracking-wider">Intermunicipal &amp; Frotas</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">
+                Transporte de Veículos
+              </h3>
+<p class="font-body-sm text-body-sm text-text-secondary mb-space-lg leading-relaxed">
+                Levamos seu carro, moto, van ou maquinário leve para oficinas credenciadas, concessionárias, pátios ou viagens entre municípios de SP com seguro de carga e nota fiscal completa.
+              </p>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary font-label-lg text-label-lg transition-colors" href="https://wa.me/5514997292456?text=Quero+um+orçamento+para+transporte+de+veículo" rel="noopener noreferrer" target="_blank">
+<span class="">Solicitar este serviço</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Serviço 3 -->
+<div class="group relative flex flex-col rounded-2xl bg-slate-surface overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Mechanic technician connecting professional jumper booster cables to an open car engine bay on roadside breakdown with safety gloves, bright amber tool accents and dark engine bay" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD15ntLnKbsrLGHFDs2vbkZal7FJtA3Tkwy-ZRePtwya7J_1kGjMUK0uw-Pu7391BrNgXRGJLQ0m5n7a8dIPCWSAPoTM7O2Ga864f_BCsQcF8Hvzjhf4Y5qUebQ80lzW6XVJLCqlDecfWCt1uRmw5pdKexU5XL6LKqo2gHijUj87Qfu2X2wOlRNVj3mdP7855ihskX1oTx7m9ZHT6o2rHdM73bYVkzwwy8P-bNwx7Tlzx1-8XA2aqABKA">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-surface via-slate-surface/40 to-transparent"></div>
+<div class="absolute -bottom-4 right-6 w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center shadow-lg shadow-amber-vivid/30">
+<span class="material-symbols-outlined text-[26px]">battery_charging_full</span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between pt-6">
+<div>
+<div class="font-label-badge text-label-badge text-tertiary mb-1 uppercase tracking-wider">Socorro no Local</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">
+                Carga de Bateria &amp; Pane Seca
+              </h3>
+<p class="font-body-sm text-body-sm text-text-secondary mb-space-lg leading-relaxed">
+                Seu carro descarregou ou acabou o combustível no meio do caminho? Levamos suprimento emergencial e realizamos chupeta técnica sem risco aos módulos eletrônicos do veículo.
+              </p>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary font-label-lg text-label-lg transition-colors" href="https://wa.me/5514997292456?text=Preciso+de+socorro+para+bateria+ou+combustivel" rel="noopener noreferrer" target="_blank">
+<span class="">Solicitar este serviço</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- POR QUE ESCOLHER SECTION (DIFERENCIAIS) -->
+<section class="w-full py-space-3xl bg-surface-container-low">
+<div class="max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<div class="inline-block font-label-badge text-label-badge text-primary uppercase tracking-widest mb-space-2xs">
+          Compromisso e Confiança
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Ágil Guinchos Bauru. Todos os direitos reservados.</p>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mb-space-xs uppercase">
+          POR QUE ESCOLHER A ÁGIL GUINCHOS?
+        </h2>
+<p class="font-body-md text-body-md text-text-secondary">
+          Atuamos com respeito absoluto ao seu tempo e ao seu patrimônio em todos os quilômetros rodados.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Diferencial 1 -->
+<div class="p-space-xl rounded-2xl bg-slate-surface shadow-md flex flex-col justify-between hover:bg-slate-elevated transition-colors">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-amber-vivid/10 text-primary flex items-center justify-center mb-space-lg">
+<span class="material-symbols-outlined text-[32px]">timer</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-sm flex items-center gap-2">
+<span class="">Rapidez no Atendimento</span>
+</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+              Sabemos que você tem pressa e que pane na rua gera insegurança. Nossas bases estratégicas cobrem os pontos críticos de Bauru e as principais rodovias como a Marechal Rondon (SP-300), Bauru-Jaú (SP-225) e SP-321 com tempo recorde de resposta.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center gap-2 text-whatsapp-green font-label-badge text-label-badge">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span class="">Rota otimizada por GPS</span>
+</div>
+</div>
+<!-- Diferencial 2 -->
+<div class="p-space-xl rounded-2xl bg-slate-surface shadow-md flex flex-col justify-between hover:bg-slate-elevated transition-colors">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-whatsapp-green/10 text-whatsapp-green flex items-center justify-center mb-space-lg">
+<span class="material-symbols-outlined text-[32px]">payments</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-sm flex items-center gap-2">
+<span class="">Preço Justo e Sem Surpresas</span>
+</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+              Valores transparentes e altamente competitivos passados antecipadamente no primeiro contato. Você sabe exatamente o valor final antes do envio da prancha, sem acréscimos abusivos na entrega.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center gap-2 text-whatsapp-green font-label-badge text-label-badge">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span class="">Orçamento prévio transparente</span>
+</div>
+</div>
+<!-- Diferencial 3 -->
+<div class="p-space-xl rounded-2xl bg-slate-surface shadow-md flex flex-col justify-between hover:bg-slate-elevated transition-colors">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-amber-vivid/10 text-primary flex items-center justify-center mb-space-lg">
+<span class="material-symbols-outlined text-[32px]">engineering</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-sm flex items-center gap-2">
+<span class="">Equipe Qualificada &amp; Prancha Moderna</span>
+</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+              Motoristas socorristas treinados para manusear desde carros rebaixados e utilitários até motos e frotas leves. Pranchas hidráulicas novas equipadas com patins, calços e catracas emborrachadas.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center gap-2 text-whatsapp-green font-label-badge text-label-badge">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span class="">Cuidado extremo com seu veículo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MAPA E COBERTURA REGIONAL -->
+<section class="w-full py-space-3xl bg-surface">
+<div class="max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5">
+<div class="inline-block font-label-badge text-label-badge text-primary uppercase tracking-widest mb-space-2xs">
+            Raio de Ação Imediato
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mb-space-sm uppercase">
+            COBERTURA COMPLETA EM BAURU E REGIÃO
+          </h2>
+<p class="font-body-md text-body-md text-text-secondary mb-space-lg leading-relaxed">
+            Com unidades estrategicamente espalhadas pelos principais acessos da cidade, garantimos atendimento rápido no perímetro urbano e socorro express nas rodovias conectoras.
+          </p>
+<div class="space-y-space-sm mb-space-lg">
+<div class="p-3 rounded-xl bg-slate-surface flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">location_on</span>
+<div>
+<strong class="font-headline-sm text-[15px] text-text-primary block">Bauru - Todos os Bairros</strong>
+<span class="text-text-secondary font-body-sm text-body-sm">Centro, Nações, Bela Vista, Geisel, Mary Dota, Falcão, Vista Alegre e Distritos Industriais.</span>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-slate-surface flex items-start gap-3">
+<span class="material-symbols-outlined text-whatsapp-green text-[22px] mt-0.5">share_location</span>
+<div>
+<strong class="font-headline-sm text-[15px] text-text-primary block">Cidades Vizinhas Atendidas</strong>
+<span class="text-text-secondary font-body-sm text-body-sm">Piratininga, Agudos, Pederneiras, Lençóis Paulista, Avaí, Bauru-Iacanga e Jaú.</span>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-slate-surface flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">traffic</span>
+<div>
+<strong class="font-headline-sm text-[15px] text-text-primary block">Rodovias Principais</strong>
+<span class="text-text-secondary font-body-sm text-body-sm">SP-300 (Mal. Rondon), SP-225 (Comandante João Ribeiro de Barros), SP-321 (Cezário José de Castilho).</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-surface-container-high text-primary font-label-lg text-label-lg hover:bg-primary-container hover:text-on-primary transition-colors" href="https://wa.me/5514997292456?text=Olá,+estou+precisando+de+guincho+na+região+de+Bauru" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+<span class="">Enviar minha localização agora</span>
+</a>
+</div>
+<!-- Visual Map Preview -->
+<div class="lg:col-span-7">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-surface">
+<!-- Simulated interactive Map placeholder -->
+<div class="w-full h-[420px] bg-cover bg-center filter brightness-90 contrast-125" data-location="Bauru, Sao Paulo, Brazil" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuACz9iewz1jBCzQww565254_wXog5udcXHuU_T2MlM3EYzE3wi0paupPfSPgqZgf5UXBUN6xEm9FvwLrhT854Ca3CXtmk-2mNHx7kqOdBQVurWVHZI2yMzNBNflULH98VNNvNIYenZnu3o4ac0Jgx5QeKlAKAFiYxNsckBJM8IKqFDKnA619-PNxEqe_3Dw7UT6uAV1cuxLzmqK_pgIYhj4zdQvIh9hJKpx5ZGt_dJ8F2jnyPKXUArH_A')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-surface via-transparent to-transparent pointer-events-none"></div>
+<div class="absolute top-4 left-4 p-3 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center gap-3 shadow-lg">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-whatsapp-green opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-whatsapp-green"></span>
+</span>
+<div>
+<div class="font-headline-sm text-[13px] text-text-primary">Plantão Rodoviário Ativo</div>
+<div class="font-body-sm text-[11px] text-text-secondary">Pranchas prontas para saída</div>
+</div>
+</div>
+<div class="absolute bottom-4 right-4 p-3 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md font-label-badge text-label-badge text-primary shadow-lg uppercase">
+              Central 24h: (14) 99729-2456
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQS (DÚVIDAS FREQUENTES) -->
+<section class="w-full py-space-3xl bg-surface-container-low">
+<div class="max-w-[840px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="text-center mb-space-2xl">
+<div class="inline-block font-label-badge text-label-badge text-primary uppercase tracking-widest mb-space-2xs">
+          Esclarecimentos Rápidos
         </div>
-    </footer>
+<h2 class="font-headline-lg text-headline-lg text-text-primary uppercase">
+          Perguntas Frequentes
+        </h2>
+</div>
+<div class="space-y-space-sm" id="faq-accordion">
+<div class="p-space-lg rounded-2xl bg-slate-surface shadow-sm cursor-pointer transition-colors" onclick="this.querySelector('.faq-content').classList.toggle('hidden'); this.querySelector('.faq-icon').classList.toggle('rotate-180')">
+<div class="flex items-center justify-between gap-4">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">
+              Como funciona o cálculo do valor do guincho?
+            </h3>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-content mt-space-sm text-text-secondary font-body-md text-body-md leading-relaxed border-t border-slate-border/30 pt-space-sm">
+            O valor é orçado com base no tipo de veículo (carro de passeio, caminhonete, moto ou utilitário), na distância total da remoção (quilometragem de ida e volta) e na complexidade do resgate. Tudo é informado com clareza antes do envio do guincho.
+          </div>
+</div>
+<div class="p-space-lg rounded-2xl bg-slate-surface shadow-sm cursor-pointer transition-colors" onclick="this.querySelector('.faq-content').classList.toggle('hidden'); this.querySelector('.faq-icon').classList.toggle('rotate-180')">
+<div class="flex items-center justify-between gap-4">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">
+              Quanto tempo demora para o socorro chegar?
+            </h3>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-content hidden mt-space-sm text-text-secondary font-body-md text-body-md leading-relaxed border-t border-slate-border/30 pt-space-sm">
+            Em perímetro urbano de Bauru, nosso tempo médio de deslocamento fica entre 20 e 35 minutos, dependendo do trânsito. Para chamados em rodovias (SP-300 e SP-225), informamos a previsão exata de chegada via WhatsApp em tempo real.
+          </div>
+</div>
+<div class="p-space-lg rounded-2xl bg-slate-surface shadow-sm cursor-pointer transition-colors" onclick="this.querySelector('.faq-content').classList.toggle('hidden'); this.querySelector('.faq-icon').classList.toggle('rotate-180')">
+<div class="flex items-center justify-between gap-4">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">
+              Quais formas de pagamento são aceitas?
+            </h3>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-content hidden mt-space-sm text-text-secondary font-body-md text-body-md leading-relaxed border-t border-slate-border/30 pt-space-sm">
+            Aceitamos transferência via Pix instantâneo, cartões de crédito e débito direto na maquininha levada pelo motorista com parcelamento disponível, além de pagamento em dinheiro.
+          </div>
+</div>
+<div class="p-space-lg rounded-2xl bg-slate-surface shadow-sm cursor-pointer transition-colors" onclick="this.querySelector('.faq-content').classList.toggle('hidden'); this.querySelector('.faq-icon').classList.toggle('rotate-180')">
+<div class="flex items-center justify-between gap-4">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">
+              Vocês atendem de madrugada e em feriados?
+            </h3>
+<span class="material-symbols-outlined text-primary faq-icon transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-content hidden mt-space-sm text-text-secondary font-body-md text-body-md leading-relaxed border-t border-slate-border/30 pt-space-sm">
+            Sim! Nossa central e operadores trabalham no regime 24 horas por dia, 7 dias por semana, 365 dias ao ano, sem interrupções para feriados, finais de semana ou condições climáticas adversas.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA URGENTE BANNER (ALTO IMPACTO) -->
+<section class="relative w-full bg-gradient-to-r from-amber-vivid via-primary-container to-surface-tint py-space-2xl lg:py-space-3xl shadow-2xl overflow-hidden">
+<!-- Decorative background elements -->
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-black/10 blur-2xl pointer-events-none"></div>
+<div class="absolute -left-16 -bottom-16 w-80 h-80 rounded-full bg-black/10 blur-2xl pointer-events-none"></div>
+<div class="max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop relative z-10 text-center">
+<div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-surface-container-lowest text-primary font-label-badge text-label-badge uppercase tracking-widest mb-space-sm shadow-md">
+<span class="w-2 h-2 rounded-full bg-whatsapp-green animate-ping"></span>
+        Equipe de Prontidão Imediata
+      </div>
+<h2 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-surface-container-lowest uppercase tracking-tight mb-space-xs font-black">
+        Precisando de ajuda agora?
+      </h2>
+<p class="font-body-lg text-body-lg text-surface-container-lowest/90 font-medium max-w-2xl mx-auto mb-space-xl">
+        Não perca tempo na estrada ou na rua com insegurança. Nossa equipe de socorristas está pronta para te atender imediatamente.
+      </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md">
+<!-- Direct Call Big Button -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg tracking-wide shadow-2xl hover:bg-slate-surface hover:text-text-primary transition-all hover:scale-105 active:scale-95" href="tel:+5514997292456">
+<span class="material-symbols-outlined text-[26px] text-amber-vivid">phone_in_talk</span>
+<span class="font-bold">LIGAR AGORA: (14) 99729-2456</span>
+</a>
+<!-- WhatsApp Secondary on yellow banner -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-whatsapp-green text-text-primary font-label-lg text-label-lg tracking-wide shadow-lg hover:bg-whatsapp-hover transition-all hover:scale-105 active:scale-95" href="https://wa.me/5514997292456?text=Olá,+preciso+de+um+guincho+urgente!" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span class="">Chamar pelo WhatsApp</span>
+</a>
+</div>
+</div>
+</section>
+<!-- FLOATING MOBILE ACTION DOCK (CONVERSÃO DE EMERGÊNCIA 1 TOQUE) -->
+<div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-surface-container-lowest/95 backdrop-blur-xl p-space-xs shadow-[0_-4px_24px_rgba(0,0,0,0.6)]">
+<div class="grid grid-cols-2 gap-space-xs">
+<a class="flex items-center justify-center gap-2 py-3.5 px-3 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg shadow-md active:scale-95 transition-all" href="tel:+5514997292456">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span class="">Ligar Agora</span>
+</a>
+<a class="flex items-center justify-center gap-2 py-3.5 px-3 rounded-lg bg-whatsapp-green text-text-primary font-label-lg text-label-lg shadow-[0_0_16px_rgba(34,197,94,0.4)] active:scale-95 transition-all" href="https://wa.me/5514997292456?text=Preciso+de+um+guincho+urgente!" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="">WhatsApp 24h</span>
+</a>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.4)] pt-space-2xl pb-space-xl"><div class="max-w-[1240px] mx-auto px-gutter-mobile lg:px-gutter-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl mb-space-2xl"><div><div class="flex items-center gap-3 mb-space-sm"><img alt="Ágil Guinchos - Guincho 24 Horas Logo" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRchNtGvR9naoM3P5WY-hg9Jbnb-bVHJY-IY6r_GNS12TqpwuyCVzC3u19EuQTrbBWOEkF79gpAP9XZ8XvWEeYn0hzvi1bhVjOdx3FcDPvXBs4ml-eom78XOdecc6f61hQtUVu0tZr9vImF1FChomQ56ux-kn3LS9zuvY8gNTq8F5VOGXTPBQW3GC8N6S5ydIMGT-XKharrQOtq4zhh31Sf1-2Q2n7xA-sOEy1uFqnsV_2Au_gd1tpzw"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface uppercase font-bold leading-tight">Ágil Guinchos</span><span class="font-label-badge text-[11px] text-primary uppercase tracking-wider font-semibold">Guincho 24 Horas</span></div></div><p class="text-on-surface-variant font-body-sm text-body-sm mb-space-md">Serviço de socorro e guincho 24 horas para carros, motos, utilitários e frotas leves com prontidão máxima e agilidade técnica.</p><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-tertiary font-label-badge text-label-badge"><span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span>Base Operacional 24 Horas Ativa</div></div><div><h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Cobertura &amp; Rodovias</h3><ul class="space-y-space-xs text-on-surface-variant font-body-sm text-body-sm"><li class="">Centro, Nações, Mary Dota e Bela Vista</li><li class="">Geisel, Sambódromo e Distritos Industriais</li><li class="">Rodovia Marechal Rondon (SP-300)</li><li class="">Rodovia Comandante João Ribeiro de Barros (SP-225)</li><li class="">Rodovia Bauru-Iacanga (SP-321)</li></ul></div><div><h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Links Rápidos</h3><ul class="space-y-space-xs text-on-surface-variant font-body-sm text-body-sm"><li class=""><a class="hover:text-primary transition-colors" data-path="inicio" href="#">Início</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="servicos" href="#">Serviços de Guincho</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="por-que-escolher" href="#">Diferenciais e Prontidão</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="cobertura-bauru-e-regiao" href="#">Mapa de Atendimento</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="contato" href="#">Fale Conosco</a></li></ul></div><div><h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Central &amp; Pagamentos</h3><div class="space-y-space-xs text-on-surface-variant font-body-sm text-body-sm mb-space-md"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">phone_in_talk</span><span class="">(14) 99729-2456</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-whatsapp-green text-[18px]">schedule</span><span class="">Disponibilidade 24/7/365</span></div></div><div class="font-label-badge text-label-badge uppercase tracking-wider text-text-muted mb-2">Formas de Pagamento</div><div class="flex flex-wrap gap-2 text-on-surface-variant font-body-sm text-body-sm"><span class="px-2.5 py-1 rounded bg-surface-container-high">Pix Instantâneo</span><span class="px-2.5 py-1 rounded bg-surface-container-high">Cartão de Crédito</span><span class="px-2.5 py-1 rounded bg-surface-container-high">Cartão de Débito</span><span class="px-2.5 py-1 rounded bg-surface-container-high">Dinheiro</span></div></div></div><div class="pt-space-lg border-t border-slate-border/30 flex flex-col md:flex-row items-center justify-between gap-4 text-on-surface-variant font-body-sm text-body-sm"><div class="">© 2025 Ágil Guinchos Bauru. Todos os direitos reservados.</div><div class="">Socorro Auto e Guincho Plataforma Bauru e Região SP</div></div></div></footer><div class="fixed bottom-6 right-6 z-50"><a aria-label="Emergência WhatsApp 24h" class="flex items-center justify-center w-14 h-14 rounded-full bg-whatsapp-green text-text-primary shadow-[0_0_24px_-2px_rgba(34,197,94,0.4)] hover:bg-whatsapp-hover hover:scale-105 transition-all" href="https://wa.me/5514997292456" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[30px]">chat</span></a></div>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/5514997292456?text=Olá,+preciso+de+um+guincho!" class="whatsapp-float" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-        <span style="display:none;">Contact</span>
-    </a>
 
-    <script src="script.js"></script>
-</body>
 
-</html>
+
+
+
+
+</body></html>
